@@ -30,7 +30,7 @@ const simpleStorageABI = [
     "signature": "0x6d4ce63c"
   }
 ];
-const simpleStorageAddress = '0x63569cbe2609D35f8822B6217737922537785C5d';
+const simpleStorageAddress = '0x583e52F0bBa71d5C4979878547eDC68Bd0BF8414';
 const web3 = new Web3('http://localhost:9545');
 const simpleStorage = new web3.eth.Contract(simpleStorageABI, simpleStorageAddress);
 
